@@ -17,7 +17,7 @@ La aplicación permite:
 -  Guardar datos en Firebase
 - Guardar datos en Supabase  
 - Seguimiento en tiempo real  
-- Implementación de ícono personalizado y splash screen  
+- Implementación de ícono personalizado
 
 ---
 
@@ -50,7 +50,6 @@ La aplicación permite:
 - Guardado de datos en Firebase
 - Guardado de datos en Supabase
 - Ícono personalizado
-- Splash Screen
 
 ---
 
@@ -70,10 +69,12 @@ ionic serve
 
 # Instalación de dependencias
 
-## Geolocalización
-
 ```bash
 npm install @capacitor/geolocation
+npm install @angular/fire
+npm install firebase
+npm install @supabase/supabase-js
+
 ```
 
 ## Sincronización
