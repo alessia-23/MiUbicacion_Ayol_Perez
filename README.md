@@ -301,8 +301,7 @@ export class SupabaseService {
 
 ---
 
-# Implementación de ícono y splash screen
-
+# Implementación de ícono
 ## Crear carpeta resources
 
 ```bash
@@ -407,7 +406,7 @@ npx cap open android
 
 # Capturas de funcionamiento
 
-##  Pantalla principal
+##  App
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/07c23b43-49f0-4b7b-a6c4-d106b43d8451" width="300"/>
