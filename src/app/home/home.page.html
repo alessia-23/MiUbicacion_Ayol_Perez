@@ -9,9 +9,14 @@
     <ion-card-header>
       <ion-card-title>Coordenadas actuales</ion-card-title>
     </ion-card-header>
+
     <ion-card-content>
       <p><strong>Latitud:</strong> {{ latitude() }}</p>
       <p><strong>Longitud:</strong> {{ longitude() }}</p>
+
+      <ion-button expand="block" color="success" (click)="abrirGoogleMaps()" *ngIf="mapsUrl()">
+        Abrir en Google Maps
+      </ion-button>
     </ion-card-content>
   </ion-card>
 
